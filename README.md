@@ -6,6 +6,8 @@ JavaScript client for the [StickerByVIN window sticker API](https://stickerbyvin
 
 ```bash
 npm install stickerbyvin
+# until the npm release is live:
+npm install github:PRIMITIFA/stickerbyvin-js
 export SBV_KEY=sbv_live_...
 ```
 
