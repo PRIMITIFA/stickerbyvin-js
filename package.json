@@ -1,0 +1,17 @@
+{
+  "name": "stickerbyvin",
+  "version": "0.1.0",
+  "description": "JavaScript/Node client for the StickerByVIN window sticker API: the original Monroney label by VIN as JSON (MSRP, options with prices, paint code, PDF).",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["vin", "window sticker", "monroney", "monroney label", "vin decoder", "car", "automotive", "api", "msrp"],
+  "homepage": "https://stickerbyvin.com/developers",
+  "repository": { "type": "git", "url": "git+https://github.com/PRIMITIFA/stickerbyvin-js.git" },
+  "bugs": { "url": "https://github.com/PRIMITIFA/stickerbyvin-js/issues", "email": "support@stickerbyvin.com" },
+  "author": "StickerByVIN <support@stickerbyvin.com> (https://stickerbyvin.com)",
+  "license": "MIT"
+}
